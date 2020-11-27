@@ -29,8 +29,9 @@ Running tests
 
 Struggles
 ---
-As far as the researches took me, Serenity is no compatible with testNg.<br>to activate Serenity report for the test we shall use<br>
-the annotation ``@RunWith(SerenityRunner.class)``, meanwhile this annotation work only with JUnit.<br>
+As far as the researches took me, Serenity is no compatible with testNg.<br>
+To activate Serenity report for the test we shall use the annotation ``@RunWith(SerenityRunner.class)``,<br>
+meanwhile this annotation work only with JUnit.<br>
 To check the test report please go into ``target/cucumber/report-html``.<br>
 In this link ``https://github.com/serenity-bdd/serenity-core/issues/691`` a member of Serenity BDD John Ferguson confirm that in 2020<br>serenity still does not support testNg.<br>
 Github repository ``https://github.com/wakaleo/serenity-core`` where we can only find serenity-JUnit.
